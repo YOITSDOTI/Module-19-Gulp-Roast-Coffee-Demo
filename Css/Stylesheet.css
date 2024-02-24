@@ -1,0 +1,361 @@
+body {
+  background-color: F2F2F2;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-family: "Poppins Bold", sans-serif;
+  background-color: #082b59;
+  color: white;
+  text-decoration: none;
+  border-bottom: 7px solid #d98555;
+}
+
+h1 {
+  font-family: "Poppins Bold", sans-serif;
+}
+
+.button a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+a {
+  color: #59331d;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #d98555;
+}
+
+.logo {
+  flex-basis: 100%;
+  padding: 0;
+  margin: 0.5rem;
+  width: 150px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #082b59;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  color: white;
+}
+
+nav li {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+  padding: 0;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #59331d;
+  margin: 0;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 8%;
+  margin-bottom: 50px;
+  margin-top: 2rem;
+}
+
+.containerwrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: auto;
+  margin-left: 28%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.coffeeImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.coffeebeanImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  width: 100%;
+}
+
+.coffeebeanImage img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Poppins Bold", sans-serif;
+  background-color: #082b59;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+  border-top: 5px solid #d98555;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #082b59;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: white;
+}
+
+footer li {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0.5rem;
+  padding: 0;
+  color: white;
+}
+
+.footer p {
+  margin: 1rem 5rem;
+  height: 30px;
+}
+
+@media (min-width: 800px) {
+  header {
+    text-align: center;
+    font-family: "Poppins Bold", sans-serif;
+    background-color: #082b59;
+    color: white;
+    text-decoration: none;
+    border-bottom: 7px solid #d98555;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #082b59;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    padding: 0;
+    color: white;
+  }
+
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #59331d;
+    margin: 0;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .containerwrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    height: 450px;
+    margin-top: 100px;
+  }
+
+  .coffeeImage {
+    width: auto;
+    height: 90%;
+    border-radius: 10px;
+  }
+  .logo {
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0.5rem;
+    width: 150px;
+  }
+  footer p {
+    margin: 1rem 5rem;
+    height: 10px;
+  }
+}
+
+@media (min-width: 1100px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins Bold", sans-serif;
+    background-color: #082b59;
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem; 
+    border-bottom: 7px solid #d98555;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #082b59;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    padding: 0;
+    color: white;
+  }
+
+  .logo-container {
+    margin-right: auto; 
+    margin-left: 2rem;
+  }
+
+  .logo {
+    margin: 0.5rem;
+    width: 150px;
+  }
+
+  nav ul {
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 2rem 0 0;
+    padding: 0;
+    color: white;
+  }
+ 
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #59331d;
+    margin: 0;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    width: 25%;
+  }
+
+  .button a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    margin-top: 2rem;
+  }
+
+.containerwrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+  .imageCard {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 120px;
+    margin-right: 12%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: 450px;
+  }
+
+  .imageCard p {
+    color: white;
+    margin: 1rem;
+    width: 80%;
+  }
+
+  .coffeeImage {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+  }
+
+  .footer p {
+    margin: 1rem 5rem;
+    height: 30px;
+  }
+}
